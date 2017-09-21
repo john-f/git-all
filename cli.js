@@ -19,7 +19,6 @@ console.log('Running git-all on ' + parent);
 git(command, parent, function(err) {
   if (err) {
     console.log(err.message);
-    process.exit(1);
   }
   console.log('Done!');
 });
